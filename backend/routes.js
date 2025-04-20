@@ -1,13 +1,15 @@
-import  adicionarPilotoController from 
-"./src/Controllers/adicionarPilotoController.js";
+import  adicionarPilotoController from "./src/Controllers/adicionarPilotoController.js";
+import listPilotoController from "./src/Controllers/listPilotoController.js";
 
 
 async function routes(fastify, options) {
-    fastify.get('/', async (request, reply) => {
-      return 'Hello World';
+  
+
+    fastify.get('/pilotos/:nome', async (request, reply) => {
+      return new listPilotoController().handle(request,reply)
     });
 
-    fastify.post ('/novopiloto', async (request,reply) => {
+    fastify.post ('/piloto', async (request,reply) => {
         return new adicionarPilotoController().handle(request,reply)
     })
   }

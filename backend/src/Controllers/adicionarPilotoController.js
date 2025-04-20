@@ -5,6 +5,7 @@ class adicionarPilotoController {
     async handle(request, reply) {
         try {
             const dados = request.body;
+            
             const pilotoService = new adicionarPilotoService();
             
             const piloto = await pilotoService.execute(dados);

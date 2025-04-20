@@ -14,6 +14,7 @@ class adicionarPilotoService {
             pilotos = JSON.parse(data);
         }
 
+
         pilotos.push(novoPiloto);
 
         fs.writeFileSync(filePath, JSON.stringify(pilotos, null, 2), 'utf-8');
