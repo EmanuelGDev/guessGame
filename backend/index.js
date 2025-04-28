@@ -15,7 +15,7 @@ function atualizarElementoPeriodicamente() {
 }
 
 // Executa na inicialização e depois a cada 5 minutos
-setInterval(atualizarElementoPeriodicamente, 15 * 1000);
+setInterval(atualizarElementoPeriodicamente, 5 * 60 * 1000);
 atualizarElementoPeriodicamente();
 
 // Inicializa o servidor

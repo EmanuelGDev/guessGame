@@ -20,21 +20,30 @@ class verificadorRespostaService{
         for(let piloto of pilotos){
             if (piloto.nome.toLowerCase() === chute.toLowerCase()) {
                 pilotoChutado = piloto;
-                console.log("Entrou aqui")
+                console.log("O piloto chutado foi: ", pilotoChutado)
             }
         }
 
         const pilotoDoDia = cache.getElemento();
-        let aux = 0;
+        
         let arrayRespotas = []
+        const valoresPilotoChutado = Object.values(pilotoChutado);
+        const valoresPilotoDoDia = Object.values(pilotoDoDia);
+        
+        console.log(valoresPilotoChutado)
+        console.log(valoresPilotoDoDia)
+        var aux = 0
 
-        for(index of pilotoChutado){
-            if(index == pilotoDoDia[aux]){
-                arrayRespotas.push(true)
-            }
-            else{arrayRespotas.push(false)
+        const chaves = Object.keys(pilotoDoDia);
+        
+        for (let chave of chaves) {
+            if (pilotoChutado[chave] === pilotoDoDia[chave]) {
+                arrayRespotas.push(true);
+            } else {
+                arrayRespotas.push(false);
             }
         }
+        
 
         return arrayRespotas;
     }
