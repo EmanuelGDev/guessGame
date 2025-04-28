@@ -12,7 +12,6 @@ fastify.register(routes);
 function atualizarElementoPeriodicamente() {
   const elemento = service.obterElementoAleatorio();
   cache.setElemento(elemento);
-  console.log('Elemento atualizado:', elemento);
 }
 
 // Executa na inicialização e depois a cada 5 minutos

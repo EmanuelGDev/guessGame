@@ -1,6 +1,7 @@
 import  adicionarPilotoController from "./src/Controllers/adicionarPilotoController.js";
 import listPilotoController from "./src/Controllers/listPilotoController.js";
 import pilotoAleatorioController from "./src/Controllers/pilotoAleatorioController.js";
+import verificadorRespostaController from "./src/Controllers/verificadorRespostaController.js";
 
 
 async function routes(fastify, options) {
@@ -13,6 +14,10 @@ async function routes(fastify, options) {
     fastify.get('/piloto', async (request, reply) => {
       const resultado = pilotoAleatorioController.getElementoAtual();
       reply.send(resultado);
+    });
+
+    fastify.get('/chute/:nome', async (request, reply) => {
+      return new verificadorRespostaController().handle(request,reply)
     });
 
     fastify.post ('/piloto', async (request,reply) => {
