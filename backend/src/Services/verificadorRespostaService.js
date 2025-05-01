@@ -27,20 +27,17 @@ class verificadorRespostaService{
         const pilotoDoDia = cache.getElemento();
         
         let arrayRespotas = []
-        const valoresPilotoChutado = Object.values(pilotoChutado);
-        const valoresPilotoDoDia = Object.values(pilotoDoDia);
-        
-        console.log(valoresPilotoChutado)
-        console.log(valoresPilotoDoDia)
-        var aux = 0
 
         const chaves = Object.keys(pilotoDoDia);
         
-        for (let chave of chaves) {
-            if (pilotoChutado[chave] === pilotoDoDia[chave]) {
-                arrayRespotas.push(true);
-            } else {
-                arrayRespotas.push(false);
+
+        for(let chave of chaves){
+            if(pilotoChutado[chave] === pilotoDoDia[chave]){
+                arrayRespotas.push("igual")
+            }else if(pilotoChutado[chave] > pilotoDoDia[chave]){
+                arrayRespotas.push("maior")
+            }else{
+                arrayRespotas.push("menor")
             }
         }
         
