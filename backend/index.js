@@ -1,9 +1,15 @@
 import Fastify from 'fastify';
+import cors from '@fastify/cors'; // plugin correto para Fastify
 import routes from './routes.js';
 import cache from './src/Cache/cache.js';
-import service from './src/Services/pilotoAleatorioService.js'; // Certifique-se do nome correto
+import service from './src/Services/pilotoAleatorioService.js';
 
 const fastify = Fastify({ logger: true });
+
+// Habilita CORS
+await fastify.register(cors, {
+  origin: '*', // permite qualquer origem. Para produção, especifique a URL do frontend.
+});
 
 // Registra as rotas
 fastify.register(routes);
@@ -14,11 +20,9 @@ function atualizarElementoPeriodicamente() {
   cache.setElemento(elemento);
 }
 
-// Executa na inicialização e depois a cada 5 minutos
 setInterval(atualizarElementoPeriodicamente, 5 * 60 * 1000);
 atualizarElementoPeriodicamente();
 
-// Inicializa o servidor
 const start = async () => {
   try {
     await fastify.listen({ port: 3005 });

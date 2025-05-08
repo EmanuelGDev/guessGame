@@ -16,13 +16,15 @@ async function routes(fastify, options) {
       reply.send(resultado);
     });
 
+    fastify.post ('/piloto', async (request,reply) => {
+      return new adicionarPilotoController().handle(request,reply)
+    })
+
     fastify.get('/chute/:nome', async (request, reply) => {
       return new verificadorRespostaController().handle(request,reply)
     });
 
-    fastify.post ('/piloto', async (request,reply) => {
-        return new adicionarPilotoController().handle(request,reply)
-    })
+
   }
   
 export default routes;
