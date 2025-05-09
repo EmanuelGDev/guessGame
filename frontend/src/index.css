@@ -1,1 +1,11 @@
 @import "tailwindcss";
+
+/* Adicione no seu arquivo CSS */
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none; /* Esconde a barra de rolagem no Chrome/Safari */
+}
+
+.scrollbar-hidden {
+  -ms-overflow-style: none; /* Para o Internet Explorer */
+  scrollbar-width: none; /* Para o Firefox */
+}
