@@ -20,6 +20,14 @@ export default function App() {
     if (valor === 'maior' || valor === 'menor') return 'bg-red-500';
     return 'bg-gray-300';
   };
+  
+const getArrow = (valor) => {
+  if (valor === 'maior') return <span className="text-3xl">⬆️</span>;
+  if (valor === 'menor') return <span className="text-3xl">⬇️</span>;
+  return null;
+};
+
+
 
   return (
     <div
@@ -27,7 +35,7 @@ export default function App() {
       style={{ backgroundImage: "url('/fundo.jpg')" }}
     >
       <section
-        className="w-[750px] max-h-[90vh] overflow-y-scroll p-8 rounded shadow flex flex-col items-center"
+        className="w-[1000px] max-h-[90vh] overflow-y-scroll p-8 rounded shadow flex flex-col items-center"
         style={{
           scrollbarWidth: 'none', 
           msOverflowStyle: 'none', 
@@ -61,16 +69,63 @@ export default function App() {
             </button>
           </div>
         </div>
+        <div className='flex justify-center space-x-2'>
+          <div
+              className={"w-25 h-25 rounded flex items-center justify-center bg-gray-600 text-white font-bold text-center"}
+          >
+            <h2>Name</h2>
+          </div>
+          <div
+              className={"w-25 h-25 rounded flex items-center justify-center bg-gray-600 text-white font-bold text-center"}
+          >
+            <h2>Debut Year</h2>
+          </div>
+          <div
+              className={"w-25 h-25 rounded flex items-center justify-center bg-gray-600 text-white font-bold text-center"}
+          >
+            <h2>Retirement Year</h2>
+          </div>
+          <div
+              className={"w-25 h-25 rounded flex items-center justify-center bg-gray-600 text-white font-bold text-center"}
+          >
+            <h2>Tittles</h2>
+          </div>
+          <div
+              className={"w-25 h-25 rounded flex items-center justify-center bg-gray-600 text-white font-bold text-center"}
+          >
+            <h2>Wins</h2>
+          </div>
+          <div
+            className={"w-25 h-25 rounded flex items-center justify-center bg-gray-600 text-white font-bold text-center"}
+          >
+            <h2>Poles</h2>
+          </div>
+          <div
+              className={"w-25 h-25 rounded flex items-center justify-center bg-gray-600 text-white font-bold text-center"}
+          >
+            <h2>Podiums</h2>
+          </div>
+          <div
+              className={"w-25 h-25 rounded flex items-center justify-center bg-gray-600 text-white font-bold text-center"}
+          >
+            <h2>Nation</h2>
+          </div>
+          
+        </div>
 
         <div className="flex flex-col space-y-2 mt-6 w-full items-center">
           {resposta.map((linha, linhaIndex) => (
             <div key={linhaIndex} className="flex flex-wrap space-x-2">
-              {linha.map((valor, index) => (
-                <div
-                  key={index}
-                  className={`w-20 h-20 rounded ${getColor(valor)}`}
-                ></div>
-              ))}
+              {linha.map((subarray, index) => (
+            <div
+              key={index}
+              className={`
+                w-25 h-25 rounded flex flex-col items-center justify-center text-white font-bold text-center ${getColor(subarray[0])}`}
+            >
+              {subarray[1]}
+              {getArrow(subarray[0])}
+            </div>
+          ))}
             </div>
           ))}
         </div>

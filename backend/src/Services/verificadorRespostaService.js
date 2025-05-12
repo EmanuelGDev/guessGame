@@ -33,11 +33,11 @@ class verificadorRespostaService{
 
         for(let chave of chaves){
             if(pilotoChutado[chave] === pilotoDoDia[chave]){
-                arrayRespotas.push("igual")
+                arrayRespotas.push(["igual", pilotoChutado[chave],pilotoDoDia[chave]])
             }else if(pilotoChutado[chave] > pilotoDoDia[chave]){
-                arrayRespotas.push("maior")
+                arrayRespotas.push(["menor",pilotoChutado[chave],pilotoDoDia[chave]])
             }else{
-                arrayRespotas.push("menor")
+                arrayRespotas.push(["maior",pilotoChutado[chave],pilotoDoDia[chave]])
             }
         }
         
