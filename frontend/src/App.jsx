@@ -21,11 +21,13 @@ export default function App() {
     return 'bg-gray-300';
   };
   
-const getArrow = (valor) => {
+  const getArrow = (valor, index, total) => {
+  if (index === 0 || index === total - 1) return null; // Ignora o primeiro e o último
   if (valor === 'maior') return <span className="text-3xl">⬆️</span>;
   if (valor === 'menor') return <span className="text-3xl">⬇️</span>;
   return null;
-};
+  };
+
 
 
 
@@ -103,7 +105,7 @@ const getArrow = (valor) => {
           <div
               className={"w-25 h-25 rounded flex items-center justify-center bg-gray-600 text-white font-bold text-center"}
           >
-            <h2>Podiums</h2>
+            <h2>Races</h2>
           </div>
           <div
               className={"w-25 h-25 rounded flex items-center justify-center bg-gray-600 text-white font-bold text-center"}
@@ -117,15 +119,15 @@ const getArrow = (valor) => {
           {resposta.map((linha, linhaIndex) => (
             <div key={linhaIndex} className="flex flex-wrap space-x-2">
               {linha.map((subarray, index) => (
-            <div
-              key={index}
-              className={`
-                w-25 h-25 rounded flex flex-col items-center justify-center text-white font-bold text-center ${getColor(subarray[0])}`}
-            >
-              {subarray[1]}
-              {getArrow(subarray[0])}
-            </div>
-          ))}
+                <div
+                  key={index}
+                  className={`
+                    w-25 h-25 rounded flex flex-col items-center justify-center text-white font-bold text-center ${getColor(subarray[0])}`}
+                >
+                  {subarray[1]}
+                  {getArrow(subarray[0], index, linha.length)}
+                </div>
+              ))}
             </div>
           ))}
         </div>

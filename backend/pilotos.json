@@ -1,43 +1,43 @@
 [
   {
     "nome": "Liam Lawson",
-    "anoEstreia": "2024",
+    "anoEstreia": "2023",
     "anoAposentadoria": "Active",
     "titulos": "0",
     "vitorias": "0",
     "poles": "0",
-    "gps": "9",
-    "pais": "Nova Zelândia"
+    "gps": "17",
+    "pais": "New Zeland"
   },
   {
     "nome": "Charles Leclerc",
     "anoEstreia": "2018",
     "anoAposentadoria": "Active",
     "titulos": "0",
-    "vitorias": "5",
-    "poles": "25",
-    "gps": "140",
-    "pais": "Mônaco"
+    "vitorias": "8",
+    "poles": "26",
+    "gps": "153",
+    "pais": "Monaco"
   },
   {
     "nome": "Lewis Hamilton",
     "anoEstreia": "2007",
     "anoAposentadoria": "Active",
     "titulos": "7",
-    "vitorias": "103",
+    "vitorias": "105",
     "poles": "104",
-    "gps": "335",
-    "pais": "Reino Unido"
+    "gps": "362",
+    "pais": "United Kingdom"
   },
   {
     "nome": "George Russell",
     "anoEstreia": "2019",
     "anoAposentadoria": "Active",
     "titulos": "0",
-    "vitorias": "1",
+    "vitorias": "3",
     "poles": "5",
-    "gps": "111",
-    "pais": "Reino Unido"
+    "gps": "136",
+    "pais": "United Kingdom"
   },
   {
     "nome": "Andrea Kimi Antonelli",
@@ -45,29 +45,29 @@
     "anoAposentadoria": "Active",
     "titulos": "0",
     "vitorias": "0",
-    "poles": "1",
-    "gps": "0",
-    "pais": "Itália"
+    "poles": "0",
+    "gps": "6",
+    "pais": "Italy"
   },
   {
     "nome": "Lando Norris",
     "anoEstreia": "2019",
     "anoAposentadoria": "Active",
     "titulos": "0",
-    "vitorias": "1",
+    "vitorias": "5",
     "poles": "10",
-    "gps": "111",
-    "pais": "Reino Unido"
+    "gps": "134",
+    "pais": "United Kingdom"
   },
   {
     "nome": "Oscar Piastri",
     "anoEstreia": "2023",
     "anoAposentadoria": "Active",
     "titulos": "0",
-    "vitorias": "0",
+    "vitorias": "6",
     "poles": "2",
-    "gps": "24",
-    "pais": "Austrália"
+    "gps": "52",
+    "pais": "Australia"
   },
   {
     "nome": "Fernando Alonso",
@@ -76,8 +76,8 @@
     "titulos": "2",
     "vitorias": "32",
     "poles": "22",
-    "gps": "383",
-    "pais": "Espanha"
+    "gps": "407",
+    "pais": "Spain"
   },
   {
     "nome": "Lance Stroll",
@@ -86,8 +86,8 @@
     "titulos": "0",
     "vitorias": "0",
     "poles": "1",
-    "gps": "141",
-    "pais": "Canadá"
+    "gps": "172",
+    "pais": "Canada"
   },
   {
     "nome": "Nico Hülkenberg",
@@ -96,8 +96,8 @@
     "titulos": "0",
     "vitorias": "0",
     "poles": "1",
-    "gps": "184",
-    "pais": "Alemanha"
+    "gps": "233",
+    "pais": "Germany"
   },
   {
     "nome": "Gabriel Bortoleto",
@@ -106,8 +106,8 @@
     "titulos": "0",
     "vitorias": "0",
     "poles": "0",
-    "gps": "0",
-    "pais": "Brasil"
+    "gps": "6",
+    "pais": "Brazil"
   },
   {
     "nome": "Pierre Gasly",
@@ -116,8 +116,8 @@
     "titulos": "0",
     "vitorias": "1",
     "poles": "0",
-    "gps": "122",
-    "pais": "França"
+    "gps": "159",
+    "pais": "France"
   },
   {
     "nome": "Jack Doohan",
@@ -126,8 +126,8 @@
     "titulos": "0",
     "vitorias": "0",
     "poles": "0",
-    "gps": "0",
-    "pais": "Austrália"
+    "gps": "6",
+    "pais": "Australia"
   },
   {
     "nome": "Esteban Ocon",
@@ -136,8 +136,8 @@
     "titulos": "0",
     "vitorias": "1",
     "poles": "0",
-    "gps": "124",
-    "pais": "França"
+    "gps": "162",
+    "pais": "France"
   },
   {
     "nome": "Oliver Bearman",
@@ -146,8 +146,8 @@
     "titulos": "0",
     "vitorias": "0",
     "poles": "0",
-    "gps": "0",
-    "pais": "Reino Unido"
+    "gps": "9",
+    "pais": "United Kingdom"
   },
   {
     "nome": "Alexander Albon",
@@ -156,18 +156,18 @@
     "titulos": "0",
     "vitorias": "0",
     "poles": "0",
-    "gps": "111",
-    "pais": "Tailândia"
+    "gps": "110",
+    "pais": "Thailand"
   },
   {
     "nome": "Carlos Sainz Jr.",
     "anoEstreia": "2015",
     "anoAposentadoria": "Active",
     "titulos": "0",
-    "vitorias": "2",
-    "poles": "0",
-    "gps": "185",
-    "pais": "Espanha"
+    "vitorias": "4",
+    "poles": "6",
+    "gps": "215",
+    "pais": "Spain"
   },
   {
     "nome": "Yuki Tsunoda",
@@ -176,8 +176,8 @@
     "titulos": "0",
     "vitorias": "0",
     "poles": "0",
-    "gps": "63",
-    "pais": "Japão"
+    "gps": "93",
+    "pais": "Japan"
   },
   {
     "nome": "Isack Hadjar",
@@ -186,7 +186,7 @@
     "titulos": "0",
     "vitorias": "0",
     "poles": "0",
-    "gps": "0",
+    "gps": "6",
     "pais": "França"
   },
   {
@@ -196,7 +196,7 @@
     "titulos": "0",
     "vitorias": "0",
     "poles": "0",
-    "gps": "39",
+    "gps": "68",
     "pais": "China"
   },
   {
@@ -206,8 +206,8 @@
     "titulos": "0",
     "vitorias": "0",
     "poles": "0",
-    "gps": "20",
-    "pais": "Estados Unidos"
+    "gps": "36",
+    "pais": "United States"
   },
   {
     "nome": "Valtteri Bottas",
@@ -216,17 +216,17 @@
     "titulos": "0",
     "vitorias": "10",
     "poles": "20",
-    "gps": "211",
+    "gps": "246",
     "pais": "Finlândia"
   },
   {
     "nome": "Kevin Magnussen",
     "anoEstreia": "2014",
-    "anoAposentadoria": "",
+    "anoAposentadoria": "2024",
     "titulos": "0",
-    "vitorias": "1",
-    "poles": "0",
-    "gps": "150",
+    "vitorias": "0",
+    "poles": "1",
+    "gps": "185",
     "pais": "Dinamarca"
   },
   {
@@ -236,17 +236,413 @@
     "titulos": "0",
     "vitorias": "8",
     "poles": "3",
-    "gps": "235",
-    "pais": "Austrália"
+    "gps": "257",
+    "pais": "Australia"
   },
   {
     "nome": "Sergio Pérez",
     "anoEstreia": "2011",
     "anoAposentadoria": "2024",
     "titulos": "0",
-    "vitorias": "3",
+    "vitorias": "6",
     "poles": "3",
-    "gps": "296",
-    "pais": "México"
+    "gps": "281",
+    "pais": "Mexico"
+  }, {
+    "nome": "Sebastian Vettel",
+    "anoEstreia": "2007",
+    "anoAposentadoria": "2022",
+    "titulos": "4",
+    "vitorias": "53",
+    "poles": "57",
+    "gps": "299",
+    "pais": "Alemanha"
+  },
+  {
+    "nome": "Mick Schumacher",
+    "anoEstreia": "2021",
+    "anoAposentadoria": "2022",
+    "titulos": "0",
+    "vitorias": "0",
+    "poles": "0",
+    "gps": "43",
+    "pais": "Alemanha"
+  },
+  {
+    "nome": "Nicholas Latifi",
+    "anoEstreia": "2020",
+    "anoAposentadoria": "2022",
+    "titulos": "0",
+    "vitorias": "0",
+    "poles": "0",
+    "gps": "61",
+    "pais": "Canadá"
+  },
+  {
+    "nome": "Nikita Mazepin",
+    "anoEstreia": "2021",
+    "anoAposentadoria": "2021",
+    "titulos": "0",
+    "vitorias": "0",
+    "poles": "0",
+    "gps": "21",
+    "pais": "Rússia"
+  },
+   {
+    "nome": "Sebastian Vettel",
+    "anoEstreia": "2007",
+    "anoAposentadoria": "2022",
+    "titulos": "4",
+    "vitorias": "53",
+    "poles": "57",
+    "gps": "299",
+    "pais": "Germany"
+  },
+  {
+    "nome": "Mick Schumacher",
+    "anoEstreia": "2021",
+    "anoAposentadoria": "2022",
+    "titulos": "0",
+    "vitorias": "0",
+    "poles": "0",
+    "gps": "43",
+    "pais": "Germany"
+  },
+  {
+    "nome": "Nicholas Latifi",
+    "anoEstreia": "2020",
+    "anoAposentadoria": "2022",
+    "titulos": "0",
+    "vitorias": "0",
+    "poles": "0",
+    "gps": "61",
+    "pais": "Canada"
+  },
+  {
+    "nome": "Nikita Mazepin",
+    "anoEstreia": "2021",
+    "anoAposentadoria": "2021",
+    "titulos": "0",
+    "vitorias": "0",
+    "poles": "0",
+    "gps": "21",
+    "pais": "Russia"
+  },  {
+    "nome": "Antonio Giovinazzi",
+    "anoEstreia": "2017",
+    "anoAposentadoria": "2021",
+    "titulos": "0",
+    "vitorias": "0",
+    "poles": "0",
+    "gps": "62",
+    "pais": "Italy"
+  },
+  {
+    "nome": "Robert Kubica",
+    "anoEstreia": "2006",
+    "anoAposentadoria": "2021",
+    "titulos": "0",
+    "vitorias": "1",
+    "poles": "1",
+    "gps": "99",
+    "pais": "Poland"
+  }, {
+    "nome": "Daniil Kvyat",
+    "anoEstreia": "2014",
+    "anoAposentadoria": "2020",
+    "titulos": "0",
+    "vitorias": "1",
+    "poles": "0",
+    "gps": "110",
+    "pais": "Russia"
+  },
+  {
+    "nome": "Kimi Raikkonen",
+    "anoEstreia": "2001",
+    "anoAposentadoria": "2021",
+    "titulos": "1",
+    "vitorias": "21",
+    "poles": "18",
+    "gps": "349",
+    "pais": "Finland"
+  },
+  {
+    "nome": "Romain Grosjean",
+    "anoEstreia": "2009",
+    "anoAposentadoria": "2020",
+    "titulos": "0",
+    "vitorias": "0",
+    "poles": "0",
+    "gps": "179",
+    "pais": "France"
+  },
+  {
+    "nome": "Stoffel Vandoorne",
+    "anoEstreia": "2016",
+    "anoAposentadoria": "2018",
+    "titulos": "0",
+    "vitorias": "0",
+    "poles": "0",
+    "gps": "21",
+    "pais": "Belgium"
+  },
+  {
+    "nome": "Marcus Ericsson",
+    "anoEstreia": "2014",
+    "anoAposentadoria": "2018",
+    "titulos": "0",
+    "vitorias": "0",
+    "poles": "0",
+    "gps": "97",
+    "pais": "Sweden"
+  },
+  {
+    "nome": "Brendon Hartley",
+    "anoEstreia": "2017",
+    "anoAposentadoria": "2018",
+    "titulos": "0",
+    "vitorias": "0",
+    "poles": "0",
+    "gps": "19",
+    "pais": "New Zealand"
+  },
+  {
+    "nome": "Felipe Massa",
+    "anoEstreia": "2002",
+    "anoAposentadoria": "2017",
+    "titulos": "0",
+    "vitorias": "11",
+    "poles": "16",
+    "gps": "269",
+    "pais": "Brazil"
+  },
+  {
+    "nome": "Jolyon Palmer",
+    "anoEstreia": "2016",
+    "anoAposentadoria": "2017",
+    "titulos": "0",
+    "vitorias": "0",
+    "poles": "0",
+    "gps": "21",
+    "pais": "United Kingdom"
+  },
+  {
+    "nome": "Paul di Resta",
+    "anoEstreia": "2011",
+    "anoAposentadoria": "2013",
+    "titulos": "0",
+    "vitorias": "0",
+    "poles": "0",
+    "gps": "58",
+    "pais": "United Kingdom"
+  },
+  {
+    "nome": "Jenson Button",
+    "anoEstreia": "2000",
+    "anoAposentadoria": "2016",
+    "titulos": "1",
+    "vitorias": "15",
+    "poles": "8",
+    "gps": "305",
+    "pais": "United Kingdom"
+  },
+  {
+    "nome": "Nico Rosberg",
+    "anoEstreia": "2006",
+    "anoAposentadoria": "2016",
+    "titulos": "1",
+    "vitorias": "23",
+    "poles": "30",
+    "gps": "206",
+    "pais": "Germany"
+  },
+  {
+    "nome": "Felipe Nasr",
+    "anoEstreia": "2015",
+    "anoAposentadoria": "2016",
+    "titulos": "0",
+    "vitorias": "0",
+    "poles": "0",
+    "gps": "39",
+    "pais": "Brazil"
+  },
+  {
+    "nome": "Esteban Gutiérrez",
+    "anoEstreia": "2013",
+    "anoAposentadoria": "2016",
+    "titulos": "0",
+    "vitorias": "0",
+    "poles": "0",
+    "gps": "59",
+    "pais": "Mexico"
+  },
+  {
+    "nome": "Pastor Maldonado",
+    "anoEstreia": "2011",
+    "anoAposentadoria": "2015",
+    "titulos": "0",
+    "vitorias": "1",
+    "poles": "1",
+    "gps": "95",
+    "pais": "Venezuela"
+  },
+  {
+    "nome": "Kamui Kobayashi",
+    "anoEstreia": "2009",
+    "anoAposentadoria": "2014",
+    "titulos": "0",
+    "vitorias": "0",
+    "poles": "0",
+    "gps": "76",
+    "pais": "Japan"
+  },
+  {
+    "nome": "Mark Webber",
+    "anoEstreia": "2002",
+    "anoAposentadoria": "2013",
+    "titulos": "0",
+    "vitorias": "9",
+    "poles": "13",
+    "gps": "215",
+    "pais": "Australia"
+  },
+  {
+    "nome": "Heikki Kovalainen",
+    "anoEstreia": "2007",
+    "anoAposentadoria": "2013",
+    "titulos": "0",
+    "vitorias": "1",
+    "poles": "1",
+    "gps": "112",
+    "pais": "Finland"
+  },
+  {
+    "nome": "Michael Schumacher",
+    "anoEstreia": "1991",
+    "anoAposentadoria": "2012",
+    "titulos": "7",
+    "vitorias": "91",
+    "poles": "68",
+    "gps": "308",
+    "pais": "Germany"
+  },
+  {
+    "nome": "Bruno Senna",
+    "anoEstreia": "2010",
+    "anoAposentadoria": "2012",
+    "titulos": "0",
+    "vitorias": "0",
+    "poles": "0",
+    "gps": "46",
+    "pais": "Brazil"
+  },
+  {
+    "nome": "Vitaly Petrov",
+    "anoEstreia": "2010",
+    "anoAposentadoria": "2012",
+    "titulos": "0",
+    "vitorias": "0",
+    "poles": "0",
+    "gps": "57",
+    "pais": "Russia"
+  },
+  {
+    "nome": "Timo Glock",
+    "anoEstreia": "2004",
+    "anoAposentadoria": "2012",
+    "titulos": "0",
+    "vitorias": "0",
+    "poles": "0",
+    "gps": "91",
+    "pais": "Germany"
+  },
+  {
+    "nome": "Nick Heidfeld",
+    "anoEstreia": "2000",
+    "anoAposentadoria": "2011",
+    "titulos": "0",
+    "vitorias": "0",
+    "poles": "1",
+    "gps": "183",
+    "pais": "Germany"
+  },
+  {
+    "nome": "Rubens Barrichello",
+    "anoEstreia": "1993",
+    "anoAposentadoria": "2011",
+    "titulos": "0",
+    "vitorias": "11",
+    "poles": "14",
+    "gps": "322",
+    "pais": "Brazil"
+  },
+  {
+    "nome": "Jarno Trulli",
+    "anoEstreia": "1997",
+    "anoAposentadoria": "2011",
+    "titulos": "0",
+    "vitorias": "1",
+    "poles": "4",
+    "gps": "256",
+    "pais": "Italy"
+  },{
+    "nome": "Ayrton Senna",
+    "anoEstreia": "1984",
+    "anoAposentadoria": "1994",
+    "titulos": "3",
+    "vitorias": "41",
+    "poles": "65",
+    "gps": "161",
+    "pais": "Brazil"
+  }, 
+  {
+    "nome": "Alain Prost",
+    "anoEstreia": "1980",
+    "anoAposentadoria": "1993",
+    "titulos": "4",
+    "vitorias": "51",
+    "poles": "33",
+    "gps": "199",
+    "pais": "France"
+  },
+  {
+    "nome": "Niki Lauda",
+    "anoEstreia": "1971",
+    "anoAposentadoria": "1985",
+    "titulos": "3",
+    "vitorias": "25",
+    "poles": "24",
+    "gps": "171",
+    "pais": "Austria"
+  },
+  {
+    "nome": "Nelson Piquet",
+    "anoEstreia": "1978",
+    "anoAposentadoria": "1991",
+    "titulos": "3",
+    "vitorias": "23",
+    "poles": "24",
+    "gps": "204",
+    "pais": "Brazil"
+  },
+  {
+    "nome": "Jackie Stewart",
+    "anoEstreia": "1965",
+    "anoAposentadoria": "1973",
+    "titulos": "3",
+    "vitorias": "27",
+    "poles": "17",
+    "gps": "100",
+    "pais": "Reino Unido"
+  },
+  {
+    "nome": "Juan Manuel Fangio",
+    "anoEstreia": "1950",
+    "anoAposentadoria": "1958",
+    "titulos": "5",
+    "vitorias": "24",
+    "poles": "29",
+    "gps": "51",
+    "pais": "Argentina"
   }
 ]
